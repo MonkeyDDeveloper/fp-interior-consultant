@@ -314,3 +314,28 @@ input:checked ~ nav {
         pointer-events: none;
     }
 }
+@media (max-width: 560px) {
+    .image-content {
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+    .image-content img {
+        width: 90%;
+        height: auto;
+    }
+    .fixed-card {
+        width: 75vw;
+        height: auto;
+        bottom: 15%;
+        right: 0; 
+    }
+    .fixed-card .header-text p{
+        font-size: 5vw;
+    }
+    .fixed-card .header-text span{
+        font-size: 3vw;
+    }
+    .fixed-card .fixed-card-body p{
+        font-size: 3vw;
+    }
+}
